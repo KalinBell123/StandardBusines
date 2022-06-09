@@ -1,5 +1,5 @@
 /* 5 */
-.btn-5 {
+/*.btn-5 {
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -38,5 +38,45 @@
   .btn-5:hover:after{
     width:100%;
     transition:800ms ease all;
+  }*/
+  
+
+  .navigation-container {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .navigation-container ul {
+    list-style: none;
+  }
+
+  .navigation-container li {
+    display: inline-block;
+    padding-left: 0px 30px;
+    margin-left: 70px;
+  }
+
+  .navigation-container li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
   }
   
+  .navigation-container li a:hover {
+    background-color: #F5F5F5
+    transition: all 0.3s ease-in 0s;
+  }
+  .content-container .intro{
+    background-color: rgb(231, 114, 114);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
