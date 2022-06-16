@@ -195,10 +195,14 @@
     bottom: 0px;
     left: 0px;
     width: 350px;
-    height: 40px;
+    height: 0px;
     padding: 0px 0px;
     display: inline-block;
   }
+
+  .work-image .boat-container .imgone{
+  padding: 0px;
+ }
 
   .work-images .facility-container {
     margin: 20px 40px;
@@ -211,6 +215,11 @@
     height: 20px;
     padding: 0px 0px;
     display: inline-block;
+  }
+
+  .work-image .boat-container .imgtwo {
+    padding: 0px;
+    margin: 0px;
   }
 
   .work-images .commercial-container {
