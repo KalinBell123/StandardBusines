@@ -201,7 +201,12 @@
   }
 
   .work-image .boat-container .imgone{
-  padding: 0px;
+    padding: 0px;
+ }
+
+  .port-container .imgtwo img {
+    padding: 0px;
+    margin: 0px 0px;
  }
 
   .work-images .facility-container {
@@ -217,9 +222,10 @@
     display: inline-block;
   }
 
-  .work-image .boat-container .imgtwo {
-    padding: 0px;
-    margin: 0px;
+  .facility-container .imgthree .img-three {
+    margin: 0px 20px;
+    padding: 0px 20px;
+    height: 230px;
   }
 
   .work-images .commercial-container {
@@ -234,4 +240,15 @@
     padding: 0px 0px;
     display: inline-block;
   }
+  
+  .commercial-container .imgfour .img-four {
+    margin: 0px 70px;
+    padding: 0px 10px;
+    height: 230px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   
