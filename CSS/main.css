@@ -64,7 +64,7 @@
     display: inline-block;
     padding-left: 0px 30px;
     margin-left: 70px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 0px;
     position: relative;
   }
@@ -159,96 +159,52 @@
     transition: all 0.2s ease 0s;
   }
 
-  .work-images {
-    margin-top: 10px;
-    margin-right: 700px;
-    margin-bottom: 130px;
-    padding-top: 10px;
-    padding-right: 800px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    background-color: white;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    
-  }
-
-  .work-images .boat-container {
-    margin: 20px 40px;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 350px;
-    height: 20px;
-    padding: 0px 0px;
+  .our-story {
+    background-color: ;
     display: inline-block;
-  }
-
-  .work-images .port-container {
-    margin: 20px 40px;
+    margin: 150px 560px;
+    padding: 30px 180px 300px 20px;
+    border: 1px solid black;
     position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 350px;
-    height: 0px;
-    padding: 0px 0px;
-    display: inline-block;
-  }
-
-  .work-image .boat-container .imgone{
-    padding: 0px;
- }
-
-  .port-container .imgtwo img {
-    padding: 0px;
-    margin: 0px 0px;
- }
-
-  .work-images .facility-container {
-    margin: 20px 40px;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 350px;
-    height: 20px;
-    padding: 0px 0px;
-    display: inline-block;
-  }
-
-  .facility-container .imgthree .img-three {
-    margin: 0px 20px;
-    padding: 0px 20px;
-    height: 230px;
-  }
-
-  .work-images .commercial-container {
-    margin: 20px 40px;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 350px;
-    height: 20px;
-    padding: 0px 0px;
-    display: inline-block;
-  }
-  
-  .commercial-container .imgfour .img-four {
-    margin: 0px 70px;
-    padding: 0px 10px;
-    height: 230px;
     top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   }
+
+  .our-story .story-head {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 50px; 
+    position: absolute;
+    top: 130px;
+    left: 150px;
+  }
+
+  .checkbox-list {
+    content: "f14a";
+  }
+
+  .blue-line {
+    color: grey;
+    border: 5px solid;
+    height: 0px;
+    width: 30px;
+    position: relative;
+    top: 220px;
+    left: 130px;
+    display: inline-block;
+    /*Blue lin under the h1*/
+  }
+
+  .checkbox-one__wrapper {
+    margin: 180px 0px 60px 120px;
+    font-size: 22px;
+    position: relative;
+    display: flex;
+    top: 100px;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0;     
   }
-
-  
